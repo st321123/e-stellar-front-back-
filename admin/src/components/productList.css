@@ -1,0 +1,66 @@
+.productList {
+  margin: 0 30px;
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  width: 100%;
+}
+.productList table .tableHd {
+  background-color: rgb(235, 235, 235);
+  padding: 13px 0;
+}
+.productList table .tableHd th {
+  font-weight: 500;
+}
+.productList table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  height: 73vh;
+  overflow-y: scroll;
+  scrollbar-width: 10px solid black;
+}
+
+
+.productList table td {
+  text-align: center;
+}
+.productList tbody tr td {
+  font-weight: 300;
+  color: rgb(113, 113, 113);
+}
+tbody {
+ 
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.productList table .product {
+  width: 150px;
+}
+.productList table .title {
+  width: 500px;
+}
+.productList table .oldPrice {
+  width: 100px;
+}
+.productList table .newPrice {
+  width: 100px;
+}
+.productList table .category {
+  width: 150px;
+}
+.productList table .remove {
+  width: 100px;
+}
+.tableBody .product img{
+width: 40px;
+border-radius: 7px;
+object-fit: cover;
+  height: 50px;
+}

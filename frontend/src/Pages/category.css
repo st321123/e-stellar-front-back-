@@ -1,0 +1,53 @@
+.categoryContainer {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.categoryContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+.categoryBanner {
+  margin: 20px 0;
+}
+.categoryBanner img {
+  width: 100%;
+}
+.categoryProductsList {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.categoryProductsList div {
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 30px;
+  padding: 7px 20px;
+}
+.categoryProductsList p {
+  font-weight: 500;
+}
+.categoryProductsList span {
+  font-weight: 200;
+}
+.categoryLoad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.categoryLoad button{
+    padding: 17px 30px ;
+    border: none;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}

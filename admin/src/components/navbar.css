@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0px;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo img {
+  height: 50px;
+}
+.logo h1 {
+  font-size: 20px;
+  color: orangered;
+  font-weight: 600;
+}
+.header h2 {
+  background-color: orangered;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 7px;
+}
+.header .profileImg {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+}

@@ -1,0 +1,80 @@
+.addProduct {
+  margin: 0 30px;
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+.addProduct label {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 6px 0;
+}
+.addProduct input {
+  height: 45px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  width: 300px;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: rgb(244, 244, 244);
+}
+.addProduct div img {
+  height: 91px;
+  width: 85px;
+  top: 430px;
+  position: absolute;
+  opacity: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.addProduct .productCategory {
+  display: flex;
+  gap: 15px;
+
+  align-items: center;
+}
+.addProduct .productCategory select {
+  padding: 3px 10px;
+  height: 30px;
+}
+.addProduct .productUpload {
+  overflow: hidden;
+  display: flex;
+  width: 85px;
+  height: 90px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 10px;
+  border: 1px solid rgb(209, 209, 209);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addProduct .productUpload input {
+  background-color: rgb(255, 255, 255);
+  max-width: 83px;
+  padding: 44px 0px;
+  border-radius: 10px;
+  opacity: 0;
+  left: 351px;
+  position: absolute;
+}
+
+.addProduct button {
+  width: 200px;
+  height: 55px;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+.productUpload img{
+  object-fit: cover;
+}
